@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music3"
+    tools:context="com.example.hpand.mp3player.Splash">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO "
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="86dp"
+        android:textColor="#0000CD"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView3"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="BAJATE RAHO.COM"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#0000CD"
+        android:layout_marginBottom="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:textColor="#0000CD"
+        android:textStyle="bold|italic"/>
+</RelativeLayout>
